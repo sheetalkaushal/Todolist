@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  background-image: url("https://wallpaperset.com/w/full/e/8/7/225834.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list {
+  text-align: center;
+  color: green;
+  font-size: 50px;
+  font-weight: 600;
+}
+.add-content {
+  color: green;
+}
+.input {
+  width: 60%;
+  border-radius: 4px;
+}
+.add {
+  border: none;
+  background-color: green;
+  border-radius: 5px;
+  width: 100px;
+  padding: 5px;
+}
+.delete {
+  background-color: red;
+  border-radius: 5px;
+  width: 100px;
+  border: none;
+  padding: 4px;
+}
+.add-list {
+  text-align: center;
+  border-radius: 44px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 38px -5px black;
+  background-color: whitesmoke;
+  padding: 23px 0px 23px 0px;
+  align-self: center;
+  width: 800px;
+}
+
+table th {
+  padding: 30px;
+  color: green;
+}
+#btndelete {
+  border: none;
+  background-color: red;
+  border-radius: 5px;
+  width: 100px;
+  padding: 5px;
+}
+.table td {
+  padding: 30px;
+}
+#btnStart {
+  color: brown;
+}
